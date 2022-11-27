@@ -1,0 +1,11 @@
+<html>
+<script>
+    var timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    function getCity(str) {
+    return str.split('/')[1];
+    }
+    alert('VPN Bypassed!\n\nYou are from: ' + getCity(timezone) + '\n\nNote: the city is not always correct but the country is');
+    
+    </script>
+
+</html>
